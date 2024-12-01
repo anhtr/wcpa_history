@@ -1,0 +1,21 @@
+project:
+  type: website
+
+website:
+  title: "WCPA"
+  navbar:
+    left:
+      - href: pages/concerts.qmd
+        text: Concerts
+      - href: pages/songs.qmd
+        text: Songs
+      - href: pages/performers.qmd
+        text: Performers
+      - href: pages/view_data.qmd
+        text: View data
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
